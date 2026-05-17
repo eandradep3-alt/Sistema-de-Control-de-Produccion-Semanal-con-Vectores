@@ -4,7 +4,6 @@
 
 Una empresa embotelladora desea analizar la producción semanal de una de sus plantas.
 Para ello se utilizará un vector de una dimensión que almacenará la cantidad de botellas producidas durante los 7 días de la semana.
-El docente desarrolló la parte básica del sistema, pero el estudiante deberá completar varias funcionalidades adicionales para el análisis de datos.
 
 ## 2. Objetivos
 
