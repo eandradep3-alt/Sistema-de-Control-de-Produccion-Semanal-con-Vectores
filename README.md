@@ -1,4 +1,4 @@
-# Sistema-de-Control-de-Producci-n-Semanal-con-Vectores
+# Sistema de Control de Producción Semanal con Vectores
 
 ## 1. Descripción del Caso
 
