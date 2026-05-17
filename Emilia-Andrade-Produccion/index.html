@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de producción</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Control de Producción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dimension Dias</td>
+                <td>
+                    <select id="id-select-dias">
+                        <option value="5" selected>5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <button id="id-btn-cargar-produccion">Cargar Producción</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-presentar-produccion">Presentar</button>
+                </td>
+               <td colspan="3">
+                <textarea id="id-listado-produccion" rows="3"readonly style="width: 98%;"></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-total-produccion">Total produccion semanal</button>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="id-txt-total-produccion" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-mayor-produccion"> Mayor produccion</button>
+                </td>
+                <td>
+                    <input type="text" id="id-txt-mayor-produccion" placeholder="0" readonly>
+                </td>
+                <td>
+                    <button id="id-btn-menor-produccion">Menor Produccion</button>
+                </td>
+                <td>
+                    <input type="text" id="id-txt-menor-produccion" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     <button id="id-btn-promedio-semanal">Promedio Semanal</button>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="id-txt-promedio-semanal" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-mayor-promedio">Produccion mayor al promedio</button>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="id-txt-mayor-promedio" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-menor-promedio">Produccion critica</button>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="id-txt-menor-promedio" style="width: 98%;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="id-btn-valores-repetidos">Vaolres Repetidos</button>
+                </td>
+                <td colspan="3">
+                    <input type="text" id="id-txt-valores-repetidos" style="width: 98%;">
+                </td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
